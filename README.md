@@ -25,6 +25,6 @@ Given these parameters, the script will calculate the itntervals at which to pla
 Dependencies
 ------------
 
-The `aplay` util is required to playback WAV files. On Debian (Ubuntu), `aplay` can be installed with
+Ruby and `aplay` are required to run this script. On Debian (Ubuntu), install both with
 
-    sudo aptitude install alsa-utils
+    sudo aptitude install alsa-utils ruby1.9.1-full
