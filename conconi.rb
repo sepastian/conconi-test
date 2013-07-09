@@ -6,7 +6,7 @@ options = {
   speed_start_kmh: 8,
   speed_increase_kmh: 0.5,
   speed_end_kmh: 30,
-  nr_points_per_lap: 5,
+  nr_points_per_lap: 10,
   distance_between_points_m: 20,
   wav_file: File.join(File.dirname(__FILE__), 'sounds', '01.wav')
 }
